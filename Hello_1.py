@@ -12,7 +12,8 @@ def random_greeting ():
     ]
 
     print(greeting[
-        random.randint(0, len(greeting))
+        random.randint(0, len(greeting)-1)
     ])
 
 random_greeting()
+
