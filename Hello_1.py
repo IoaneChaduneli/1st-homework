@@ -2,7 +2,7 @@ import random
 
 name = input("What is your name? ")
 
-def random_greeting():
+def random_hello():
     hello = [
         f"Hello,{name}",
         f"gamarjoba, {name}",
@@ -16,5 +16,5 @@ def random_greeting():
 
     print(greet)
 
-random_greeting()
+random_hello()
 
